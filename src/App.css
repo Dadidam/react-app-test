@@ -14,11 +14,21 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.App-content {
+  width: 750px;
+}
+
+.App-list {
+  float: left;
+  width: 450px;
+}
+
+.App-editor {
+  float: left;
+  width: 300px;
 }
