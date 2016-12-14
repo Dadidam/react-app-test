@@ -1,8 +1,12 @@
 import React from 'react';
-import './App.css';
+import './Editor.css';
 
 export default (props) => {
-	return (
-	  <div>This is editor</div>
-	)
+    if (!props.show) {
+        return null;
+    }
+
+    return (
+        <div className="editor">This is editor</div>
+    )
 }
