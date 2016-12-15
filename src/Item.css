@@ -1,9 +1,4 @@
-.list {
-    float: left;
-    width: 450px;
-}
-
-.listItem {
+.item {
     border-bottom: 1px solid #9da0a4;
     padding: 10px 0;
 }

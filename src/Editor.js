@@ -9,6 +9,7 @@ export default (props) => {
 
     return (
         <div className="editor">
+            <h3>List Editor</h3>
             {props.data.map((item, i) => {
                 return (
                     <div key={i}>
@@ -20,7 +21,7 @@ export default (props) => {
                     </div>
                 )
             })}
-            <button onClick={props.addItemHandler}>Add item</button>
+            <button onClick={props.addItemHandler} className="addButton">Add item</button>
         </div>
     )
 }

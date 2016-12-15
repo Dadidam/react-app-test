@@ -7,12 +7,14 @@ export default (props) => {
 
     return (
         <div className="list">
+            <h3>Employee List</h3>
             {!props.data.length || !hasActiveItems ? emptyMsg :
                 <div>
                     {props.data.map((item, i) => {
                         if (!item.disabled) {
-                            return <pre key={i}>{item.info}</pre>
+                            return <pre key={i} className="listItem">{item.info}</pre>
                         }
+                        return null;
                     })}
                 </div>
             }

@@ -1,4 +1,11 @@
 .editor {
+    background-color: #eee;
     float: left;
-    width: 300px;
+    padding: 15px;
+    width: 270px;
+}
+
+.addButton {
+    font-size: 16px;
+    margin-top: 10px;
 }

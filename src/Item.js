@@ -1,5 +1,5 @@
 import React from 'react';
-// import './Editor.css';
+import './Item.css';
 
 export default (props) => {
     let value = props.data.info;
@@ -14,8 +14,10 @@ export default (props) => {
     const btnState = value.length;
 
     return (
-        <div>
-            <textarea 
+        <div className="item">
+            <textarea
+                rows="3"
+                cols="30"
                 defaultValue={value}
                 onChange={onChangeHandler}
             />
